@@ -13,7 +13,7 @@ const useEventListener = (
         let targetElement: any;
         if (!target) {
             targetElement = window;
-        } else if ("current" in target) {
+        } else if (Object.hasOwn(target,"current")) {
             targetElement = target.current;
         } else {
             targetElement = target;
