@@ -1,5 +1,5 @@
-import useSafeState from "./hooks/useSafeState";
-import useSelections from "./hooks/useSelections"
+import useSafeState from "../hooks/useSafeState";
+import useSelections from "../hooks/useSelections"
 import {Button, Checkbox, Col, Row} from "antd";
 
 const Index = () => {
