@@ -1,4 +1,4 @@
-import useCountDown  from "./hooks/useCountDown";
+import useCountDown  from "../hooks/useCountDown";
 import { Button, message } from "antd";
 import { useState } from "react";
 

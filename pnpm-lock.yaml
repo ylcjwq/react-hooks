@@ -29,6 +29,9 @@ importers:
       antd:
         specifier: ^5.17.2
         version: 5.17.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      dayjs:
+        specifier: ^1.11.11
+        version: 1.11.11
       identity-obj-proxy:
         specifier: ^3.0.0
         version: 3.0.0
